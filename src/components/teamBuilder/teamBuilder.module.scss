@@ -1,0 +1,180 @@
+@import '../../styles/theme.module.scss';
+
+.avatar {
+  height: 43px;
+  width: 43px;
+  border: 2px solid $purple-one;
+  border-radius: 100%;
+}
+
+.hero-name {
+  font-size: 22px;
+  font-weight: 700;
+  height: 5px;
+}
+
+.composition-container {
+  min-width: 256px;
+}
+
+.composition-card {
+  background-color: $blue-two;
+  border-radius: 8px;
+  min-height: 682px;
+  min-width: 256px;
+  height: 682px;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.composition-item {
+  border: 1px solid $purple-one;
+  border-radius: 8px;
+  padding: 5px;
+  width: 226px;
+
+  &:first-child {
+    margin-top: 12px;
+  }
+}
+
+.icon-button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.avatar-button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.add-icon {
+  color: $purple-one;
+}
+
+.heros-container {
+  max-width: 964px;
+}
+
+.heros-card {
+  background-color: $blue-two;
+  border-radius: 8px;
+  min-width: 256px;
+  height: 682px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.heros-item {
+  border: 1px solid $purple-one;
+  border-radius: 8px;
+  padding: 5px;
+  width: 226px;
+}
+
+.hero-info-header {
+  margin-top: 37px;
+}
+
+.hero-info-card {
+  width: 256px;
+  height: 333px;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: $blue-two;
+}
+
+.hero-info-avatar {
+  height: 43px;
+  width: 43px;
+  border: 2px solid $purple-one;
+  border-radius: 100%;
+}
+
+.hero-info-name {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.hero-info-headers {
+  color: $orange-one;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-info-text {
+  font-size: 12px;
+  color: $white-one;
+  font-weight: 500;
+}
+
+.hero-info-button {
+  background-color: $orange-one;
+  width: 120px;
+  padding: 8px 0px;
+  border-radius: 2px;
+  color: $white-one;
+  outline: none;
+  border: none;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $yellow-one;
+  }
+}
+
+.hero-infos {
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.donation-card {
+  width: 256px;
+  height: 333px;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: $purple-two;
+}
+
+.wallet-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.wallet {
+  color: $orange-one;
+  font-size: 9px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  margin-right: 3px;
+
+  &:hover {
+    color: $yellow-one;
+  }
+}
+
+.copy-icon {
+  width: 9px;
+  height: 9px;
+  color: white;
+}
+
+
+@media (max-width: 576px) {
+  .heros-card {
+    width: 256px;
+    height: 333px;
+  }
+}
