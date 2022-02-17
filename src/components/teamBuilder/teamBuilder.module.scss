@@ -104,7 +104,7 @@
 }
 
 .hero-info-headers {
-  color: $orange-one;
+  color: $yellow-two;
   font-size: 14px;
   font-weight: 700;
 }
@@ -115,8 +115,12 @@
   font-weight: 500;
 }
 
+.emphasis {
+  color: $yellow-two;
+}
+
 .hero-info-button {
-  background-color: $orange-one;
+  background-color: $yellow-two;
   width: 120px;
   padding: 8px 0px;
   border-radius: 2px;
@@ -153,7 +157,7 @@
 }
 
 .wallet {
-  color: $orange-one;
+  color: $yellow-two;
   font-size: 9px;
   font-weight: 700;
   background: none;

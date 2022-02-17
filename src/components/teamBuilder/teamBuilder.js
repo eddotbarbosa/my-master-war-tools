@@ -140,7 +140,7 @@ export default function TeamBuilder () {
                     <h2 className={`${styles['hero-info-headers']}`}>FATES</h2>
                     {hero.fates.map((ele) => {
                       return (
-                        <span key={ele.name} className={`${styles['hero-info-text']}`}>{ele.name}</span>
+                        <span key={ele.name} className={`${styles['hero-info-text']} ${layout['mb-1']}`}>{ele.name}: <span className={`${styles['emphasis']}`}>{ele.item}</span>, {ele.description}.</span>
                       );
                     })}
                   </div>
@@ -148,7 +148,7 @@ export default function TeamBuilder () {
                     <h2 className={`${styles['hero-info-headers']}`}>SKILLS</h2>
                     {hero.skills.map((ele) => {
                       return (
-                        <span key={ele.name} className={`${styles['hero-info-text']}`}>{ele.name}</span>
+                        <span key={ele.name} className={`${styles['hero-info-text']} ${layout['mb-1']}`}>{ele.name}: {ele.description}.</span>
                       );
                     })}
                   </div>

@@ -7,6 +7,21 @@ exports.heros = [
     class: 'Master Mind',
     fates: [
       {
+        name: 'Like Tiger With Wings',
+        item: 'Cheng Gong, Lu Bu',
+        description: 'Attack +17%'
+      },
+      {
+        name: 'Have both wisdom & courage',
+        item: 'Cheng Gong, Yan Liang',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Careful',
+        item: 'Cheng Gong, Gao Shun',
+        description: 'Hp increase +22%'
+      },
+      {
         name: 'Golden Horse',
         item: 'White Horse',
         description: 'Defense +15%'
@@ -32,6 +47,21 @@ exports.heros = [
     faction: 'Qun',
     class: 'Infantry',
     fates: [
+      {
+        name: 'Tiger & Bear Monster',
+        item: 'Dong Zhuo, Hua Xiong',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Can\'t go the same way',
+        item: 'Dong Zhuo, Yuan Shao',
+        description: 'Defense +16%'
+      },
+      {
+        name: 'Chaos of Heaven',
+        item: 'Dong Zhuo, Lu bu, Jia Xu, Yuan Shao, Zhang Jue',
+        description: 'Defense +15%'
+      },
       {
         name: 'Golden Horse',
         item: 'White Horse',
@@ -64,6 +94,21 @@ exports.heros = [
     class: 'Lancer',
     fates: [
       {
+        name: 'Courage & Strength',
+        item: 'Gao Shun, Xu Chu',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'Six Shields',
+        item: 'Gao Shun, Liu Biao',
+        description: 'HP increase +14%'
+      },
+      {
+        name: 'Humble Careful',
+        item: 'Gao Shun, Chen Deng',
+        description: 'HP increase +22%'
+      },
+      {
         name: 'Great Fantasy',
         item: 'Great Fantasy',
         description: 'Attack +14%'
@@ -72,7 +117,7 @@ exports.heros = [
         name: 'Cultive Body & Nurture Nature',
         item: 'Blue Book',
         description: 'Defense +14%'
-      }
+      },
     ],
     skills: [
       {
@@ -89,6 +134,21 @@ exports.heros = [
     faction: 'Qun',
     class: 'Cavalry',
     fates: [
+      {
+        name: 'Super Strong Swords',
+        item: 'Hua Xiong, Wen Foru',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Tiger & Bear Monster',
+        item: 'Hua Xiong, Dont Zhuo',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Blood Killer',
+        item: 'Hua Xiong, Dian Wei, Cao Ren',
+        description: 'Attack +20%'
+      },
       {
         name: 'Great Fantasy',
         item: 'Great Fantasy',
@@ -121,6 +181,21 @@ exports.heros = [
     class: 'Master Mind',
     fates: [
       {
+        name: 'Bone Spear',
+        item: 'Hua Tuo, Guan Yu',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'God of Agriculture',
+        item: 'Hua Tuo, Jia Xu',
+        description: 'HP increase +20%'
+      },
+      {
+        name: 'Medical Research',
+        item: 'Hua Tuo, Lady Zhen, God Jiang Wei',
+        description: 'Defense +25%'
+      },
+      {
         name: 'Golden Iron',
         item: 'White Horse',
         description: 'HP increase +17%'
@@ -151,6 +226,21 @@ exports.heros = [
     faction: 'Qun',
     class: 'Master Mind',
     fates: [
+      {
+        name: 'Heart of Evil',
+        item: 'Jia Xu, God Sima Yi,',
+        description: 'Attack +18%'
+      },
+      {
+        name: 'God of Agriculture',
+        item: 'Jia Xu, Hua Tuo',
+        description: 'HP increase +20%'
+      },
+      {
+        name: 'Chaos of Heaven',
+        item: 'Jia Xu, Zhang Jue, Lu Bu, Yuan Shao, Dong Zhuo',
+        description: 'HP increase +20%, Attack +20%'
+      },
       {
         name: 'One hundread mile walk',
         item: 'Black Cloud',
@@ -183,6 +273,21 @@ exports.heros = [
     class: 'Lancer',
     fates: [
       {
+        name: 'Together in Life & Death',
+        item: 'Wen Foru, Yan Liang',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Super Strong Swords',
+        item: 'Wen Foru, Hua Xiong',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Wen Foru Nymph',
+        item: 'Wen Foru, Lady Zhen',
+        description: 'HP increase +16%'
+      },
+      {
         name: 'One hundread mile walk',
         item: 'Black Cloud',
         description: 'HP increase +17%'
@@ -213,6 +318,21 @@ exports.heros = [
     faction: 'Qun',
     class: 'Lancer',
     fates: [
+      {
+        name: 'Together in Life & Death',
+        item: 'Yang Liang, Wen Foru',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Center Like One',
+        item: 'Yang Liang, Yuan Shao',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Slashing Blades',
+        item: 'Yang Liang, Xu Huang',
+        description: 'Attack +13%'
+      },
       {
         name: 'Surfing on the sand',
         item: 'Thunder Golden Claw',
@@ -245,6 +365,21 @@ exports.heros = [
     class: 'Master Mind',
     fates: [
       {
+        name: 'Art of Peace',
+        item: 'Yu Ji, Zhang Jue',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Many times of Success',
+        item: 'Yu Ji, God Fa Zheng',
+        description: 'Defense +19%'
+      },
+      {
+        name: 'Control the Storm',
+        item: 'Yu Ji, Huang Yueying, God Zhuge Liang',
+        description: 'Attack +25%'
+      },
+      {
         name: 'Victory Returns',
         item: 'Thunder Golden Claw',
         description: 'HP increase +19%'
@@ -270,6 +405,21 @@ exports.heros = [
     faction: 'Qun',
     class: 'Cavalry',
     fates: [
+      {
+        name: 'I Don\'t Hear You',
+        item: 'Yuan Shao, Zhang He',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'Can\'t go the same way',
+        item: 'Yuan Shao, Dong Zhuo',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Chaos of Heaven',
+        item: 'Yuan Shao, Zhang Jue, Lu Bu, Dong Zhuo, Jia Xu',
+        description: 'HP increase +20%, Attack +20%'
+      },
       {
         name: 'Roamed Raing & Wind',
         item: 'Red Hare',
@@ -302,6 +452,21 @@ exports.heros = [
     class: 'Master Mind',
     fates: [
       {
+        name: 'Evil In The Middle Of The Road',
+        item: 'Zhang Jue, Yu Ji',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Art of Peace',
+        item: 'Zhang Jue, Huang Yueying',
+        description: 'Attack +20%'
+      },
+      {
+        name: 'Chaos of Heaven',
+        item: 'Zhang Jue, Lu Bu, Jia Xu, Yuan Shao, Dong Zhuo',
+        description: 'HP increase +20%, Attack +20%'
+      },
+      {
         name: 'Roamed Raing & Wind',
         item: 'Red Hare',
         description: 'Defense +15%'
@@ -332,6 +497,21 @@ exports.heros = [
     faction: 'Qun',
     class: 'Master Mind',
     fates: [
+      {
+        name: 'Alone Wolf Protects The Moon',
+        item: 'Diaochan, God Xiahou Dun',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Heroic Nymph',
+        item: 'Diaochan, Lu Bu',
+        description: 'Attack +18%'
+      },
+      {
+        name: 'Nine Songs',
+        item: 'Diaochan, Xu Shu, Huang Yueying',
+        description: 'HP increase +24%'
+      },
       {
         name: 'Ma zhong\'s Red Hare',
         item: 'Red Hare',
@@ -364,6 +544,21 @@ exports.heros = [
     class: 'Cavalry',
     fates: [
       {
+        name: 'Bone Spear',
+        item: 'Guan Yu, Hua Tuo',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Blood Brother',
+        item: 'Guan Yu, Liu Bei, Zhang Fei',
+        description: 'Attack +20%'
+      },
+      {
+        name: 'Five Tiger Generals',
+        item: 'Guan Yu, Zhang Fei, Zhao Yun, Ma Chao, Huang Zhong',
+        description: 'HP increase +22%, Attack +22%'
+      },
+      {
         name: 'Ma zhong\'s Red Hare',
         item: 'Red Hare',
         description: 'HP increase +17%'
@@ -394,6 +589,21 @@ exports.heros = [
     faction: 'Shu',
     class: 'Master Mind',
     fates: [
+      {
+        name: 'Wings of Dragon',
+        item: 'Huang Yueying, Zhao Yun',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'The Difficulty Emerges The Wise',
+        item: 'Huang Yueing',
+        description: 'Defense +19%'
+      },
+      {
+        name: 'Field Songs',
+        item: 'Huang Yueing, Diaochan, Xu Shu',
+        description: 'HP increase +24%'
+      },
       {
         name: 'Ma zhong\'s Red Hare',
         item: 'Red Hare',
@@ -426,6 +636,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'The Older The More Tough',
+        item: 'Huang Zhong, Huang Gai',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Good Defense',
+        item: 'Huang Zhong, God Lu Su',
+        description: 'Defense +19%'
+      },
+      {
+        name: 'Five Tiger Generals',
+        item: 'Huang Zhong, Guan Yu, Zhang Fei, Zhao Yun, Ma Chao',
+        description: 'HP increase +22%, Attack +22%'
+      },
+      {
         name: 'Surfing on the sand',
         item: 'Thunder Golden Claw',
         description: 'Attack +15%'
@@ -456,6 +681,21 @@ exports.heros = [
     faction: 'Shu',
     class: 'Infantry',
     fates: [
+      {
+        name: 'Animal Falling',
+        item: 'Liu Bei, Lady Sun',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Great Strategy',
+        item: 'Liu Bei, God Fa Zheng',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Blood Brother',
+        item: 'Liu Bei, Guan Yu, Zhang Fei',
+        description: 'Attack +20%'
+      },
       {
         name: 'Horse jump',
         item: 'White Horse',
@@ -488,6 +728,21 @@ exports.heros = [
     class: 'Cavalry',
     fates: [
       {
+        name: 'You Attack, I Defend',
+        item: 'Ma Chao, Cao Ren',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Heroic',
+        item: 'Ma Chao, Taishi Ci',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Five Tiger Generals',
+        item: 'Ma Chao, Guan Yu, Zhang Fei, Zhao Yun, Huang Zhong',
+        description: 'HP increase +22%, Attack +22%'
+      },
+      {
         name: 'Ma zhong\'s Red Hare',
         item: 'Red Hare',
         description: 'HP increase +15%'
@@ -518,6 +773,21 @@ exports.heros = [
     faction: 'Shu',
     class: 'Cavalry',
     fates: [
+      {
+        name: 'Seven Times Catch Seven',
+        item: 'Meng Huo, God Zhuge Liang',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Bravery',
+        item: 'Meng Huo, Guan Xing',
+        description: 'HP increase +14%'
+      },
+      {
+        name: 'Shu Enters',
+        item: 'Meng Huo, Liu Bei, Zhurong',
+        description: 'Attack +19%'
+      },
       {
         name: 'Precious horses pull fragrant',
         item: 'Black Cloud',
@@ -550,6 +820,21 @@ exports.heros = [
     class: 'Infantry',
     fates: [
       {
+        name: 'Blood of Martial God',
+        item: 'Wei Yan, Guan Yu',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Cray War of Heaven',
+        item: 'Wei Yan, Zhang Fei',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'In Danger No Fun',
+        item: 'Wei Yan, Dian Wei, Xu Chu',
+        description: 'Attack +20%'
+      },
+      {
         name: 'Surfing on the sand',
         item: 'Thunder Golden Claw',
         description: 'Defense +15%'
@@ -575,6 +860,21 @@ exports.heros = [
     faction: 'Shu',
     class: 'Lancer',
     fates: [
+      {
+        name: 'Conspiracy',
+        item: 'Zhang Fei, God Jiang Wei',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Blood Brother',
+        item: 'Zhang Fei, Guan Yu, Liu Bei',
+        description: 'Attack +20%'
+      },
+      {
+        name: 'Five Tiger Generals',
+        item: 'Zhang Fei, Guan Yu, Zhao Yun, Ma Chao, Huang Zhong',
+        description: 'HP increase +22%, Attack +22%'
+      },
       {
         name: 'Cross the river then break the mist',
         item: 'Black Cloud',
@@ -607,6 +907,21 @@ exports.heros = [
     class: 'Cavalry',
     fates: [
       {
+        name: 'Pratice Martial Art Sice Birth',
+        item: 'Zhurong, Quan Anping',
+        description: 'Hp increase +14%'
+      },
+      {
+        name: 'Female General',
+        item: 'Zhurong, Da Qiao',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'Shu Enters Sichuan',
+        item: 'Zhurong, Liu Bei, Meng Huo',
+        description: 'Attack +19%'
+      },
+      {
         name: 'Precious horses pull fragrant',
         item: 'Black Cloud',
         description: 'Attack +14%'
@@ -637,6 +952,21 @@ exports.heros = [
     faction: 'Wei',
     class: 'Infantry',
     fates: [
+      {
+        name: 'The Great War of Red Cliff',
+        item: 'Cao Cao, Zhang Liao',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Fengxiao',
+        item: 'Cao Cao, Guo Jia',
+        description: 'HP increase +20%'
+      },
+      {
+        name: 'Masterpiece',
+        item: 'Cao Cao, Cao Pi, God Sima Yi',
+        description: 'HP increase +25%'
+      },
       {
         name: 'Victory Return',
         item: 'Thunder Golden Claw',
@@ -669,6 +999,21 @@ exports.heros = [
     class: 'Infantry',
     fates: [
       {
+        name: 'You Attack, I Defend',
+        item: 'Cao Ren, Ma Chao',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Copper Iron Wall',
+        item: 'Cao Ren, Xu Chu',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Blood Killer',
+        item: 'Cao Ren, Dian Wei, Hua Xiong',
+        description: 'Attack +20%'
+      },
+      {
         name: 'Great Fantasy',
         item: 'Great Fantasy',
         description: 'Defense +15%'
@@ -700,6 +1045,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'Face Doesn\'t Change Color',
+        item: 'Cao Pi, Dian Wei',
+        description: 'Hp increase +16%'
+      },
+      {
+        name: 'Fake Queen',
+        item: 'Cao Pi, Lady Zhen',
+        description: 'Defense +19%'
+      },
+      {
+        name: 'Masterpiece',
+        item: 'Cao Pi, Cao Cao, God Sima Yi',
+        description: 'HP increase +25%'
+      },
+      {
         name: 'Lucurious House',
         item: 'The Night of the Lion Jade',
         description: 'Attack +14%'
@@ -726,6 +1086,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'Ancient Evil Slayer',
+        item: 'Dian Wei, Xu Huang',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Face Doesn\'t Change Color',
+        item: 'Dian Wei, Cao Pi',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Blood Killer',
+        item: 'Dian Wei, Cao Ren, Hua Xiong',
+        description: 'Attack +20%'
+      },
+      {
         name: 'Roamed Rain & Wind',
         item: 'Red Hare',
         description: 'Defense +15%'
@@ -746,6 +1121,21 @@ exports.heros = [
     faction: 'Wei',
     class: 'Master Mind',
     fates: [
+      {
+        name: 'Fengxiao',
+        item: 'Guo Jia, Cao Cao',
+        description: 'HP increase +20%'
+      },
+      {
+        name: 'Bible of Demon',
+        item: 'Guo Jia, Lady Zhen',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Scared Devil',
+        item: 'Guo Jia, God Xiahou Dun, Xu Huang',
+        description: 'Attack +22%'
+      },
       {
         name: 'Can\'t Touch Great Fantasy',
         item: 'Great Fantasy',
@@ -778,6 +1168,21 @@ exports.heros = [
     class: 'Infantry',
     fates: [
       {
+        name: 'Ancient Evil Slayer',
+        item: 'Xu Huang',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Support of Food King',
+        item: 'Xu Huang, Xu Chu',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Five Elite Generals',
+        item: 'Xu Huang, Zhang Liao, Yue Jin, Yu Jin',
+        description: 'HP increase +20%, Attack +20%'
+      },
+      {
         name: 'Horses pedal birds nests',
         item: 'The Night of the Lion Jade',
         description: 'Attack +15%'
@@ -798,6 +1203,21 @@ exports.heros = [
     faction: 'Wei',
     class: 'Infantry',
     fates: [
+      {
+        name: 'Support of Food',
+        item: 'Xu Chu, Xu Huang',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Courage & Strength',
+        item: 'Xu Chu, Cao Ren',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'In Danger No Fun',
+        item: 'Xu Chu, Dian Wei, Wei Yan',
+        description: 'Attack +20%'
+      },
       {
         name: 'Surfing on the sand',
         item: 'Thunder Golden Claw',
@@ -830,6 +1250,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'Wise Education',
+        item: 'Yang Xiu, Guo Jia',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Tough like chicken tendons',
+        item: 'Yang Xiu, Cao Cao',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Enter the Strange Map',
+        item: 'Yang Xiu, Cao Pi',
+        description: 'HP increase +16%'
+      },
+      {
         name: 'Star Night',
         item: 'Thirty-Six Stratagems',
         description: 'Attack +14%'
@@ -850,6 +1285,21 @@ exports.heros = [
     faction: 'Wei',
     class: 'Infantry',
     fates: [
+      {
+        name: 'Copper Iron Wall',
+        item: 'Yu Jin, Cao Ren',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Many Times of Success',
+        item: 'Yu Jin, Man forng',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Five Elite Generals',
+        item: 'Yu Jin, Xu Huang, Yue Jin, Zhang Liao',
+        description: 'HP increase +20%, Attack +20%'
+      },
       {
         name: 'Surfing on the sand',
         item: 'Thunder Golden Claw',
@@ -877,6 +1327,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'Bible of Demon',
+        item: 'Lady Zhen, Guo Jia',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Fake Queen',
+        item: 'Lady Zhen, Cao Pi',
+        description: 'Defense +19%'
+      },
+      {
+        name: 'Medical Research',
+        item: 'Lady Zheng, Hua Tuo, God Jiang Wei',
+        description: 'Defense +25%'
+      },
+      {
         name: 'Precious horses pull fragrant',
         item: 'Black Cloud',
         description: 'HP increase +15%'
@@ -902,6 +1367,21 @@ exports.heros = [
     faction: 'Wu',
     class: 'Archer',
     fates: [
+      {
+        name: 'Love Couple',
+        item: 'Da Qiao',
+        description: 'Defense +23%'
+      },
+      {
+        name: 'Brave Female General',
+        item: 'Da Qiao, Zhurong',
+        description: 'Defense +17%'
+      },
+      {
+        name: 'Straighforward Heart',
+        item: 'Da Qiao, Xiao Qiao, Lady Sun',
+        description: 'Defense +25%'
+      },
       {
         name: 'Horses pedal birds nests',
         item: 'The Night of the Lion Jade',
@@ -934,6 +1414,21 @@ exports.heros = [
     class: 'Infantry',
     fates: [
       {
+        name: 'Jiangdong Double Heroes',
+        item: 'Gan Ning, Zhuo Tai',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Episode of Jingzhuo',
+        item: 'Gan Ning, Xu Sheng',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Jiangdong Stone Pillar',
+        item: 'Gan Ning, Taishi Ci, Zhou Yu, God Lu Meng',
+        description: 'HP increase +22%, Attack +22%'
+      },
+      {
         name: 'One hundred mile walk',
         item: 'Black Cloud',
         description: 'Attack +17%'
@@ -959,6 +1454,21 @@ exports.heros = [
     faction: 'Wu',
     class: 'Infantry',
     fates: [
+      {
+        name: 'Jiangdong Hegemony',
+        item: 'Huang Gai, God Sun Ce',
+        description: 'Hp increase +19%'
+      },
+      {
+        name: 'The Older The More Tough',
+        item: 'Huang Gai, Huang Zhong',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'Five Together',
+        item: 'Huang Gai, Zhou Tai, Go Lu Meng',
+        description: 'Attack +17%, Defense +19%'
+      },
       {
         name: 'Great Fantasy',
         item: 'Great Fantasy',
@@ -991,6 +1501,21 @@ exports.heros = [
     class: 'Infantry',
     fates: [
       {
+        name: 'Sweep Up Thieves',
+        item: 'Pan Zhang, Xu Sheng',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'Young Pride',
+        item: 'Pan Zhang, Ding Feng',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Kill the Hero To Win the Flag',
+        item: 'Pan Zhang, Zhu Huan',
+        description: 'Attack +14%'
+      },
+      {
         name: 'Great Fantasy',
         item: 'Great Fantasy',
         description: 'Defense +15%'
@@ -1017,6 +1542,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'Animal Falling',
+        item: 'Lady Sun, Liu Bei',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Tongshi Father & Son',
+        item: 'Lady Sun, God Sun Jian',
+        description: 'HP increase +18%'
+      },
+      {
+        name: 'Straighforward',
+        item: 'Lady Sun, Da Qiao, Xiao Qiao',
+        description: 'Defense +25%'
+      },
+      {
         name: 'Golden Horse',
         item: 'White Horse',
         description: 'Defense +15%'
@@ -1042,6 +1582,21 @@ exports.heros = [
     faction: 'Wu',
     class: 'Lancer',
     fates: [
+      {
+        name: 'Heroic',
+        item: 'Taishi Ci, Ma Chao',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'Teenager',
+        item: 'Taishi Ci, God Jiang Wei, God Sun Ce',
+        description: 'Attack +20%'
+      },
+      {
+        name: 'Jiang Stone Pillar',
+        item: 'Taishi Ci, Zhuo Yu, God Sun Jian, Gan Ning, God Lu Meng',
+        description: 'HP increase +22%, Attack +22%'
+      },
       {
         name: 'Victory Returns',
         item: 'Thunder Golden Claw',
@@ -1074,6 +1629,21 @@ exports.heros = [
     class: 'Lancer',
     fates: [
       {
+        name: 'Talent Boys & Beautiful Girls',
+        item: 'Xiao Qiao, Zhou Yu',
+        description: 'Hp increase +23%'
+      },
+      {
+        name: 'Gentle Personality',
+        item: 'Xiao Qiao, Liu Bao',
+        description: 'Defense +17%'
+      },
+      {
+        name: 'Straighforward Heart',
+        item: 'Xiao Qiao, Da Qiao, Lady Sun',
+        description: 'Defense +25%'
+      },
+      {
         name: 'Horses pedal birds nests',
         item: 'The Night of the Lion Jade',
         description: 'HP increase +15%'
@@ -1105,6 +1675,21 @@ exports.heros = [
     class: 'Infantry',
     fates: [
       {
+        name: 'Episode of Jingshuo',
+        item: 'Xu Sheng, Gan Ning',
+        description: 'Attack +16%'
+      },
+      {
+        name: 'Recruit Talented People',
+        item: 'Xu Sheng, God Sun Quan',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Go Through Life & Death',
+        item: 'Xu Sheng, Zhou Tai, Lu Kang',
+        description: 'HP increase +22%'
+      },
+      {
         name: 'Horses pedal birds nests',
         item: 'The Night of the Lion Jade',
         description: 'Defense +14%'
@@ -1131,6 +1716,21 @@ exports.heros = [
     class: 'Lancer',
     fates: [
       {
+        name: 'Jiangdong Double Heroes',
+        item: 'Zhou Tai, Gan Ning',
+        description: 'Defense +18%'
+      },
+      {
+        name: 'Absolute Courage',
+        item: 'Zhou Tai, Ling Tong',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Fight Together',
+        item: 'Zhou Tai, Huang Gai, God Lu Meng',
+        description: 'Attack +17%, Defense +19%'
+      },
+      {
         name: 'Golden Horse',
         item: 'White Horse',
         description: 'Attack +14%'
@@ -1156,6 +1756,21 @@ exports.heros = [
     faction: 'Wu',
     class: 'Infantry',
     fates: [
+      {
+        name: 'Talented men & Beautiful Woman',
+        item: 'Zhou Yu, Xiao Qiao',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Kingdoms of Cloud & Wind',
+        item: 'Zhou Yu, God Zhuge Liane, God Sima Yi',
+        description: 'HP increase +20%, Attack +17%'
+      },
+      {
+        name: 'Jiangdong Stone Pillar',
+        item: 'Zhou Yu, Taishi Ci, Gan Ning, God Lu Meng, God Sun Jian',
+        description: 'HP increase +22%, Attack +22%'
+      },
       {
         name: 'Can\'t Touch Great Fantasy',
         item: 'Great Fantasy',
@@ -1188,6 +1803,21 @@ exports.heros = [
     class: 'Master Mind',
     fates: [
       {
+        name: 'The Difficulty Emerges The Wisdom',
+        item: 'Cai Yan, Huang Yueying',
+        description: 'Defense +19%'
+      },
+      {
+        name: 'Heroic Nymph',
+        item: 'Cai Yan, Xiahou Yuan',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Loyalty remains unchanged',
+        item: 'Cai Yan, Lady Gan, Liu Bao',
+        description: 'HP increase +18%'
+      },
+      {
         name: 'Roamed Rain & Wind',
         item: 'Red Hare',
         description: 'Defense +14%'
@@ -1213,6 +1843,21 @@ exports.heros = [
     faction: 'Wei',
     class: 'Archer',
     fates: [
+      {
+        name: 'Build country',
+        item: 'Zhang He, God Xiahou Dun',
+        description: 'Hp increase +18%'
+      },
+      {
+        name: 'I dont\'t Hear You',
+        item: 'Zhang He, Yuan Shao',
+        description: 'Attack +14%'
+      },
+      {
+        name: 'Five Elite Generals',
+        item: 'Zhang He, Zhang Liao, Xu Huang, Yue Jin, Yu jin',
+        description: 'HP increase +20%, Attack +20%'
+      },
       {
         name: 'Luxurious House',
         item: 'The Night of the Lion Jade',
@@ -1245,6 +1890,21 @@ exports.heros = [
     class: 'Cavalry',
     fates: [
       {
+        name: 'The Great War of Red Cliff',
+        item: 'Zhang Liao, Cao Cao',
+        description: 'Hp increase +20%'
+      },
+      {
+        name: 'Better Than People',
+        item: 'Zhang Liao, God Sima Yi',
+        description: 'HP increase +22%'
+      },
+      {
+        name: 'Five Elite Generals',
+        item: 'Zhang Liao, Zhang He, Xu Huang, Yue Jin, Yu Jin',
+        description: 'HP increase +20%, Attack +20%'
+      },
+      {
         name: 'One hundred mile walk',
         item: 'Black Cloud',
         description: 'Attack +19%'
@@ -1275,6 +1935,21 @@ exports.heros = [
     faction: 'Shu',
     class: 'Cavalry',
     fates: [
+      {
+        name: 'Great Righteousness',
+        item: 'Zhao Yun, God Fa Zheng',
+        description: 'Attack +17%'
+      },
+      {
+        name: 'Five Tiger Generals',
+        item: 'Zhao Yun, Guan Yu, Zhang Fei, Ma Chao, Huang Zhong',
+        description: 'HP increase +22%, Attack +22%'
+      },
+      {
+        name: 'Dragon Flies Phoenix Dances',
+        item: 'Zhao Yun, Pang Tong, God Zhuge Liang',
+        description: 'HP increase +22%'
+      },
       {
         name: 'Luxurious House',
         item: 'The night of the Lion Jade',
@@ -1307,6 +1982,21 @@ exports.heros = [
     class: 'Cavalry',
     fates: [
       {
+        name: 'Heroic Nymph',
+        item: 'Lu Bu, Diaochan',
+        description: 'Attack +18%'
+      },
+      {
+        name: 'Good at Martial Art',
+        item: 'Lu Bu, Guan Yu, Zhao Yun',
+        description: 'HP increase +20%, Attack +17%'
+      },
+      {
+        name: 'Chaos of Heaven',
+        item: 'Lu bu, Jia Xu, Yuan Shao, Zhang Jue, Dong Zhuo',
+        description: 'HP increase +20%, attack +20%'
+      },
+      {
         name: 'The Best of Manking',
         item: 'Red Hare',
         description: 'Attack +19%'
@@ -1338,6 +2028,21 @@ exports.heros = [
     class: 'Archer',
     fates: [
       {
+        name: 'Brother of Oner Heart',
+        item: 'Xiahou Yuan',
+        description: 'Attack +17%'
+      },
+      {
+        name: 'Heroic Nymph',
+        item: 'Xiahou Yuan, Cai Yan',
+        description: 'HP increase +16%'
+      },
+      {
+        name: 'Center Like One',
+        item: 'Xiahou Yuan, Xu Chu, Cao Hong, Yu Jin',
+        description: 'HP increase +20%, Attack +17%'
+      },
+      {
         name: 'Luxurious House',
         item: 'The Night of the Lion Jade',
         description: 'Attack +15%'
@@ -1363,6 +2068,21 @@ exports.heros = [
     faction: 'Wu',
     class: 'Archer',
     fates: [
+      {
+        name: 'I am the Admiral',
+        item: 'Lu Xun, Zhou Yu',
+        description: 'Attack +18%'
+      },
+      {
+        name: 'Big Heart',
+        item: 'Lu Xun, God Lu Meng',
+        description: 'HP increase +20%'
+      },
+      {
+        name: 'Strange Plan',
+        item: 'Lu Xun, Zhou Yu, God Lu Su',
+        description: 'HP increase +25%'
+      },
       {
         name: 'Golden Iron',
         item: 'White Horse',
