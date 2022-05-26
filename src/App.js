@@ -11,9 +11,9 @@ import Footer from './components/footer/footer';
 
 
 function App() {
-  useEffect(() => {
+  /* useEffect(() => {
     logEvent(analytics, 'page_view');
-  }, []);
+  }, []); */
 
   return (
     <div className="App">
